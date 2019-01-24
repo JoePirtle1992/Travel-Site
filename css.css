@@ -1,0 +1,409 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.claim h1, .statement h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+.logo-image {
+    max-width: 65px;
+}
+
+#top-header {
+    background-color: #070606;
+    color: white;
+}
+
+#top-header .first-part {
+    border-bottom: solid .2px white;
+}
+
+.second-part {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.first-part {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.fa-search{ 
+    padding: 4px;
+}
+
+.icons-list i {
+
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5em;
+   border: solid .11px white;
+}
+
+.phone {
+    position: relative;
+    top: .5em;
+}
+.phone i {
+    padding-right: .3rem;
+}
+.phone h4 {
+    letter-spacing: 1.5px;
+}
+
+.within > div {
+    text-align: center;
+}
+
+.within div:nth-child(1){
+    font-size: 9px;
+    color: white;
+}
+
+.within div:nth-child(2){
+    font-size: 30px;
+    color: white;
+}
+
+
+.first-part {
+    border-bottom: white;
+    display: flex;
+    padding-bottom:6px;
+    padding-top: 5px;
+}
+
+.icons-list li, .master-links li {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.phone-call {
+    display: flex;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone-button button {
+    border: none;
+    background-color: #fd7373;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.button button {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+/* Second Part */
+
+.master-links {
+    margin-left: auto;
+    /* padding:17px; */
+    position: relative;
+    top: 1.3em;
+}
+.link a {
+    text-decoration: none;
+}
+
+.link {
+    font-size: .88em;
+    margin-left: 20px;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+/* ================================= */
+
+
+    /*BOTTOM BOX */
+
+
+
+/* ==================================== */
+
+.box {
+    padding-top: .9em;
+    display: flex;
+    -webkit-box-shadow: 0px 8px 15px -9px rgba(0,0,0,0.9); 
+box-shadow: 0px 8px 15px -9px rgba(0,0,0,0.9);
+}
+
+.box i {
+    padding-left: .3em;
+    padding-right: .13em;
+}
+
+.box p{
+    /* border: solid 2px red; */
+    padding-right: 1.8em;
+}
+
+.box-info {
+    padding-left: .5em;
+    padding-right: .1em;
+}
+
+.box-info h1 {
+    font-size: 1.4em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    /* padding: 20px; */
+    padding-bottom: 4px;
+}
+
+.box-info p {
+    font-size: .80em;
+    /* text-align: justify; */
+    letter-spacing: .4px;
+    font-weight: 300;
+    padding-bottom: 1.4em;
+    font-family: 'Roboto';
+}
+
+
+
+.box {
+    border-radius: 4px;
+    width: 18.33%;
+    background-color: white;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.inner-birds {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3em;
+}
+
+
+/* END BOTTOM BOX */
+
+header {
+    height: 85vh;
+    /* width: 100vw; */
+    background:  linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(7, 6, 5, 0.5)),url('header.jpeg') no-repeat center center/cover;
+    /* background-position: 60% 40%; */
+    display: flex;
+}
+
+.search-box button, input[type="text"] {
+    float: left;
+}
+
+
+.search-box button,  .submit-button{
+    background-color: #fd7373;
+    border: none;
+    padding: 10.3px;
+}
+
+.within {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    animation: motion .9s;
+}
+input[type="text"]{
+    width: 60%;
+    padding: 8.6px;
+}
+
+
+/* DESTINATION BOX */
+
+
+.haus {
+    width: 100%;
+}
+
+.desintation-position {
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+}
+.buttons button {
+    padding: 6px;
+    float: left;
+    background-color: darkorange;
+    border: none;
+}
+
+.property-box h1, .property-box p {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 30px;
+}
+
+.property-box {
+    margin: 2rem;
+}
+
+.prop-line {
+    /* width: 100%; */
+    height: 3px;
+    background-color: black;
+}
+
+
+.desitination-info h1 {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+body {
+    background: #eee;
+}
+
+.buttons button:nth-child(1){
+    background-color: #eee;
+}
+
+#the-destinations, #second-destinations {
+    display: flex;
+    justify-content: center;
+}
+
+#properties {
+    display: flex;
+    justify-content: center;
+}
+
+
+.destination-box {
+    width: 16%;
+    margin: 20px;
+}
+
+.haus {
+    height: 200px;
+}
+
+header {
+    position: relative;
+}
+
+.clearfix::after {
+display: table;
+clear: both;
+content: ''
+}
+
+
+/* Media Screen */
+
+ @media screen and (max-width: 1150px) {
+  body {
+  background-color: pink;
+  }
+  .icons-list {
+      display: block;
+  }
+  .box {
+      display: block;
+  }
+  .box {
+      width: 33.33%;
+  }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+  body {
+  background-color: green;
+  }
+  .phone-call {
+      display: flex;
+      justify-content: center;
+  }
+
+  .first-part {
+      display: flex;
+      text-align: center;
+      width: 100%;
+      flex-direction: column;
+      /* margin: 0; */
+  }
+
+  .button, .icons-list {
+      padding-top: 5px;
+  }
+  .icons-list {
+      padding-bottom: 5px;
+  }
+  .phone-button {
+      display: none;
+  }
+  }
+
+@media screen and (max-width: 440px){
+    body {
+        background-color: blue;
+    }
+    .second-part {
+        display: block;
+    }
+    .logo {
+        display: block;
+        border: solid 2px green;
+    }
+    .logo-image {
+        width: 20%;
+    }
+    .box {
+        display: flex;
+        width: 95%;
+    }
+    .inner-birds {
+        display: block;
+    }
+    .master-links li {
+        border: solid 2px aqua;
+        display: inline-block;
+        font-size: 8px;
+        padding: 1px;
+    }
+    .master-links {
+        padding:9px;
+        margin: 5px;
+    }
+   .first-part {
+       display: block;
+   }
+}
+
+@keyframes motion {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
